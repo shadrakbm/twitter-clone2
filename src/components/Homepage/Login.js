@@ -1,5 +1,7 @@
 import "../../styles/Homepage.css"
 
+import { Link } from "react-router-dom"
+
 import TwitterIcon from "@mui/icons-material/Twitter"
 
 function Login() {
@@ -27,7 +29,7 @@ function Login() {
 
       <button>Mot de passe oublié ?</button>
 
-      <p className="account">Vous n'avez pas de compte ? <a>Inscrivez-vous</a></p>
+      <p className="account">Vous n'avez pas de compte ? <Link to="/register">Inscrivez-vous.</Link></p>
     </div>
   )
 }

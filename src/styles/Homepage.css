@@ -1,6 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
+    font-family: "Montserrat", sans-serif;
     margin: 35px 470px;
     padding: 10px 140px;
     border: 1px solid white;
@@ -13,17 +14,28 @@
 }
 
 .container h2 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 button {
+    border: none;
     border-radius: 20px;
     height: 42px;
     text-align: center;
     margin-bottom: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.google {
+    color: gray;
 }
 
 p {
@@ -34,6 +46,9 @@ p {
 
 input {
     height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -41,4 +56,8 @@ input {
     font-size: 15px;
     margin-top: 30px;
     margin-bottom: 50px;
+}
+
+.policy {
+    font-size: 12px;
 }
